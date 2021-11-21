@@ -4,11 +4,11 @@ from sys import exit
 import time
 import os
 from contextlib import contextmanager
-host = '192.168.137.50'
-username = 'pi'
-password = 'raspberry'
+host = '#Ip for your raspberrypi'
+username = '# Your userename'
+password = '# Your Password'
 
-LED_Count = 500
+LED_Count = 500 #Number of LED'S
 
 
 def LightUp():
